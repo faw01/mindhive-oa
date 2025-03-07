@@ -5,9 +5,9 @@ from geopy.distance import geodesic
 from fastapi.encoders import jsonable_encoder
 from sqlalchemy import or_
 
-from backend.database.session import get_db
-from backend.database.models import Outlet as OutletModel
-from backend.schemas.outlet import Outlet, OutletDistance, IntersectingOutlet
+from database.session import get_db
+from database.models import Outlet as OutletModel
+from schemas.outlet import Outlet, OutletDistance, IntersectingOutlet
 
 router = APIRouter()
 

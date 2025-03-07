@@ -13,7 +13,7 @@ Python scraper for collecting Subway Malaysia outlet data.
 
 ```bash
 # Run scraper
-python scrape.py
+python -m scraper.main
 
 # Run tests
 pytest

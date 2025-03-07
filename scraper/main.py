@@ -1,6 +1,6 @@
 """Main script to run the scraper and insert data into the database."""
 import logging
-from scraper.subway_scraper import extract_outlets
+from scraper.scraper import extract_outlets
 from playwright.sync_api import sync_playwright
 from backend.database.session import SessionLocal
 from backend.database.models import Outlet
